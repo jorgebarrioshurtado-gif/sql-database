@@ -42,11 +42,11 @@ This project demonstrates an end-to-end data workflow in a SQL environment:
 
 The final outcome is a set of insights that highlight potential drivers of employee attrition, showcasing how SQL can be used as a tool for business analysis.
 
-## Authors
+## 📝 Authors
 
 Paula Correa Silva & Jorge Barrios Hurtado
 
-## Links
+## 🔗 Links
 
 * Kaggle dataset: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 * Google Slides: https://docs.google.com/presentation/d/1GPhBWCICusUzJMwXJrntYxq-NVKvUfk3QuAi_Sua-Oo/edit?slide=id.g3e6163e166b_0_529#slide=id.g3e6163e166b_0_529
