@@ -1,3 +1,5 @@
+-- the sql file where we populated our tables from the raw data. 
+
 INSERT INTO employee_information
 SELECT EmployeeNumber,
 		Attrition,

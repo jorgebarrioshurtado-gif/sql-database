@@ -1,3 +1,5 @@
+-- this schema was created with drawDB :)).
+
 DROP DATABASE IF EXISTS `ibm`;
 CREATE DATABASE IF NOT EXISTS `ibm`;
 
