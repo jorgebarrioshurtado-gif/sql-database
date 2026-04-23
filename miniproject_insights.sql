@@ -1,21 +1,12 @@
 -- EMPLOYEE INFORMATION INSIGHTS
--- number of employees with attrition
-SELECT COUNT(EmployeeNumber) Employees_with_attrition
-FROM employee_information
-WHERE Attrition = "Yes";
-
--- number of employees with no attrition
-SELECT COUNT(EmployeeNumber) Employees_with_no_attrition
-FROM employee_information
-WHERE Attrition = "No";
-
--- average age group by attrition
-SELECT Attrition, AVG(Age) Average_Age
+-- number of employees with attrition and average age.
+SELECT Attrition, COUNT(EmployeeNumber) Employees, ROUND(AVG(Age), 2) Average_Age
 FROM employee_information
 GROUP BY Attrition;
 
 -- WORK CONDITION INSIGHTS
---
+-- we had to divide the query because there was some categorical and some numerical data in this table.alter
+-- For the 
 SELECT i.Attrition, 
 		ROUND(AVG(DistanceFromHome), 2),
         ROUND(AVG(MonthlyIncome), 2),
